@@ -159,6 +159,12 @@ settings:
     type: class-toggle
     default: false
   -
+    id: justified-list-items
+    title: Justified List Items
+    description: Justify list items in both reading and editing modes
+    type: class-toggle
+    default: false
+  -
     id: floating-toolbar
     title: Floating Status Bar
     description: Float the status bar in the center bottom of the screen
@@ -3898,6 +3904,22 @@ body.justified-text .markdown-source-view.mod-cm6 .cm-line {
   text-justify: inter-word;
 }
 
+/* ============================================
+   JUSTIFIED LIST ITEMS
+   Justify list items in reading and editing modes
+   ============================================ */
+
+/* Reading mode */
+body.justified-list-items .markdown-preview-view li {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
+
+/* Source view and live preview */
+body.justified-list-items .markdown-source-view.mod-cm6 .cm-line.HyperMD-list-line {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
 /* ============================================
    FLOATING STATUS BAR
    Float the status bar in the center bottom of the screen

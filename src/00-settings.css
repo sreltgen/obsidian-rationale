@@ -159,6 +159,12 @@ settings:
     type: class-toggle
     default: false
   -
+    id: justified-list-items
+    title: Justified List Items
+    description: Justify list items in both reading and editing modes
+    type: class-toggle
+    default: false
+  -
     id: floating-toolbar
     title: Floating Status Bar
     description: Float the status bar in the center bottom of the screen

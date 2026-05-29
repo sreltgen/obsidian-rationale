@@ -46,6 +46,7 @@ cat \
     "$SRC_DIR/components/tabs.css" \
     "$SRC_DIR/features/hide-top-tab-bar.css" \
     "$SRC_DIR/features/justified-text.css" \
+    "$SRC_DIR/features/justified-list-items.css" \
     "$SRC_DIR/features/floating-toolbar.css" \
     "$SRC_DIR/features/footlinks.css" \
     "$SRC_DIR/features/file-icons.css" \
