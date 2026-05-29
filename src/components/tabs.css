@@ -5,9 +5,7 @@
 /* Tab styling - consistent width and distinct background */
 .workspace-tab-header[data-type="markdown"],
 .workspace-tab-header[data-type="canvas"] {
-  width: 28px !important;
   min-width: 28px !important;
-  max-width: 28px !important;
   padding: 3px !important;
   background-color: var(--background-secondary-alt) !important;
   font-family: var(--font-tab) !important;

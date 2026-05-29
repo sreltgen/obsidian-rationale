@@ -1,0 +1,10 @@
+/* ===========================================
+   Reduce horizontal tabs width to 28px, which
+   is the same as vertical/stacked tabs width
+   =========================================== */
+
+body.reduced-horizontal-tabs-width .workspace-tab-header[data-type="markdown"],
+.workspace-tab-header[data-type="canvas"] {
+    width: 28px !important;
+    max-width: 28px !important;
+}

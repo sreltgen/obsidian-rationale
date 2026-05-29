@@ -50,6 +50,7 @@ cat \
     "$SRC_DIR/features/floating-toolbar.css" \
     "$SRC_DIR/features/footlinks.css" \
     "$SRC_DIR/features/file-icons.css" \
+    "$SRC_DIR/features/reduced-horizontal-tabs-width.css" \
     "$SRC_DIR/plugins/full-calendar.css" \
     "$SRC_DIR/plugins/task-genius.css" \
     "$SRC_DIR/overrides/scheme-tabs.css" \

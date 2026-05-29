@@ -147,6 +147,12 @@ settings:
     type: variable-text
     default: "'Space Grotesk', 'Inter', sans-serif"
   -
+    id: reduced-horizontal-tabs-width
+    title: Reduce Tab Width
+    description: Reduce horizontal tabs width to 28px, which is the same as vertical/stacked tabs width
+    type: class-toggle
+    default: false
+  -
     id: text-heading
     title: Text
     type: heading
